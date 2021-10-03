@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-position: center center;
+  object-fit: cover;
+}
+
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.error {
+  color: initial;
+  color: #e92b2d !important;
+  /* font-weight: 600 !important;
+	font-size: 12px !important; */
+}
+
+.input_error {
+  border: 1px solid #e92b2d !important;
+}
+
+.line_title {
+  margin-bottom: 5px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 50px;
+}
